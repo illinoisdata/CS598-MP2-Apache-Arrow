@@ -19,5 +19,4 @@ jobs:
     - name: grade
       run: |
         cd cpp/cs598/ascii
-        ./run.sh
         docker-compose run grade
